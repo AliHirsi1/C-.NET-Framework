@@ -1,0 +1,6 @@
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Model\bin\Debug\DvdLibrarys.Model.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Model\bin\Debug\DvdLibrarys.Model.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Model\obj\Debug\DvdLibrarys.Model.csproj.CoreCompileInputs.cache
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Model\obj\Debug\DvdLibrarys.Model.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Model\obj\Debug\DvdLibrarys.Model.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Model\obj\Debug\DvdLibrarys.Model.csprojResolveAssemblyReference.cache

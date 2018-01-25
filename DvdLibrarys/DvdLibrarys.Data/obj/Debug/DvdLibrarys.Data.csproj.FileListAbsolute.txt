@@ -1,0 +1,17 @@
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\bin\Debug\DvdLibrarys.Data.dll.config
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\bin\Debug\DvdLibrarys.Data.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\bin\Debug\DvdLibrarys.Data.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\bin\Debug\DvdLibrarys.Model.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\bin\Debug\EntityFramework.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\bin\Debug\DvdLibrarys.Model.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\bin\Debug\EntityFramework.xml
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\obj\Debug\DvdLibrarys.Data.csprojResolveAssemblyReference.cache
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\obj\Debug\DvdLibrarys.Data.csproj.CoreCompileInputs.cache
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\obj\Debug\DvdLibrarys.Data.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\obj\Debug\DvdLibrarys.Data.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\obj\Debug\DvdLibrarys.Data.Migrations.init.resources
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\obj\Debug\DvdLibrarys.Data.csproj.GenerateResource.Cache
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\obj\Debug\DvdLibrarys.Data.Migrations.init1.resources
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Data\obj\Debug\DvdLibrarys.Data.Migrations.init2.resources

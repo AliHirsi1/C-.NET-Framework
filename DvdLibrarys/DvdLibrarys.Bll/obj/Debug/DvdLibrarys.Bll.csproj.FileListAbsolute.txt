@@ -1,0 +1,13 @@
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\bin\Debug\DvdLibrarys.Bll.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\bin\Debug\DvdLibrarys.Bll.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\bin\Debug\DvdLibrarys.Model.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\bin\Debug\DvdLibrarys.Model.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\obj\Debug\DvdLibrarys.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\obj\Debug\DvdLibrarys.Bll.csproj.CoreCompileInputs.cache
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\obj\Debug\DvdLibrarys.Bll.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\obj\Debug\DvdLibrarys.Bll.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\bin\Debug\DvdLibrarys.Data.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\bin\Debug\EntityFramework.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\bin\Debug\DvdLibrarys.Data.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\bin\Debug\DvdLibrarys.Data.dll.config
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\DvdLibrarys\DvdLibrarys.Bll\bin\Debug\EntityFramework.xml

@@ -1,0 +1,144 @@
+﻿@model  CarDealarship.UI.Models.AddVehicleViewModel
+
+@{
+    ViewBag.Title = "Add Vehicle";
+}
+
+<div class="row">
+    <div class="saleInfo">
+        @using (Html.BeginForm("AddVehicle", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <h2>Add Vehicle</h2>
+            @Html.HiddenFor(i => i.VehicleId)
+            <br />
+            <form>
+                <div class="col-md-12">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputEmail4">Make</label>
+                            @Html.DropDownListFor(m => m.VehicleMakeId, Model.MakeItems, "-Choose Make-", new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(m => m.AddVehicles.MakeId.MakeName)</span>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Model</label>
+                            @Html.DropDownListFor(m => m.VehicleModelId, Model.ModelItems, "-Choose Model-", new { @class = "form-control", placeholder = "-choose model-" })
+                            <span class="text-danger">@Html.ValidationMessageFor(m => m.AddVehicles.ModelId.ModelName)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Type</label>
+                            @Html.DropDownListFor(b => b.AddVehicles.IsNew, Model.TypeItems, "-choose type-", new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(b => b.AddVehicles.IsNew)</span>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Body Style</label>
+                            @Html.DropDownListFor(b => b.AddVehicles.VehicleType, Model.BodyStyleItems, "-choose bodytype-", new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(b => b.AddVehicles.VehicleType)</span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputEmail4">Year</label>
+                            @Html.TextBoxFor(y => y.AddVehicles.Year, new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(y => y.AddVehicles.Year)</span>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Transmission</label>
+                            @Html.DropDownListFor(t => t.AddVehicles.Transmission, Model.TransmissionItems, "-Choose Transmission-", new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(t => t.AddVehicles.Transmission)</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputEmail4">Color</label>
+                            @Html.DropDownListFor(c => c.AddVehicles.Color, Model.ColorItems, "-Choose Color-", new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(c => c.AddVehicles.Color)</span>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Interior</label>
+                            @Html.DropDownListFor(i => i.AddVehicles.Interior, Model.InteriorItems, "-Choose Interior-", new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(i => i.AddVehicles.Interior)</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputEmail4">Mileage</label>
+                            @Html.TextBoxFor(y => y.AddVehicles.Mileage, new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(y => y.AddVehicles.Mileage)</span>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Vin #</label>
+                            @Html.TextBoxFor(y => y.AddVehicles.VinNumber, new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(y => y.AddVehicles.VinNumber)</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputEmail4">MSRP</label>
+                            @Html.TextBoxFor(y => y.AddVehicles.MSRP, new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(y => y.AddVehicles.MSRP)</span>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputPassword4">Sales Price</label>
+                            @Html.TextBoxFor(y => y.AddVehicles.SalesPrice, new { @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(y => y.AddVehicles.SalesPrice)</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-row">
+                        <div class="form-group col-lg-12">
+                            <label for="inputEmail4">Despcription</label>
+                            @Html.TextAreaFor(d => d.AddVehicles.Description, new { @class = "form-control" })
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-row">
+                        <div class="col-md-4">
+                            @Html.TextBoxFor(m => m.ImageFile, new { type = "file", @class = "form-control" })
+                            <span class="text-danger">@Html.ValidationMessageFor(m => m.ImageFile)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+                <br />
+                <div class="col-md-12">
+                    <div class="form-row">
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon"></span>Save</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </form>
+
+        }
+    </div>
+</div>

@@ -1,0 +1,37 @@
+﻿@model CarDealarship.UI.Models.SpecialVM
+@{
+    ViewBag.Title = "Specials";
+}
+
+<h2>Specials</h2>
+
+@using (Html.BeginForm("AddSpecials", "Admin", FormMethod.Post))
+{
+    <div>
+        <div class="form-group">
+            <label for="title">Title</label>
+            @Html.TextBoxFor(t => t.Title, new { @class = "form-control" })
+            <span class="text-danger">@Html.ValidationMessageFor(t => t.Title)</span>
+        </div>
+        <div class="form-group">
+            <label for="description">Description</label>
+            @Html.TextAreaFor(m => m.Message, new { @class = "form-control" })
+            <span class="text-danger">@Html.ValidationMessageFor(m => m.Message)</span>
+        </div>
+        <button type="submit" class="btn btn-default">Save</button>
+    </div>
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div id="specialplaceholder"></div>
+    </div>
+</div>
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+﻿@model  CarDealarship.UI.Models.ModelViewModel
+
+
+
+
+@{
+    ViewBag.Title = "Modells";
+}
+
+<h2>Models</h2>
+@using (Html.BeginForm("Modells", "Admin", FormMethod.Post))
+{
+    <div class="form-group">
+        <label class="col-sm-4 control-label">New Model</label>
+        @Html.TextBoxFor(m => m.ModelName, new { @class = "form-control", placeholder = "New Model" })
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.ModelName)</span>
+
+
+        <label class="col-sm-4 control-label">Make</label>
+        @Html.DropDownListFor(m => m.MakeId, Model.MakesItems, "-choose make-", new { @class = "form-control", placeholder = "New Model" })
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.MakeId)</span>
+        <button type="submit" class="btn btn-primary ">Save</button>
+    </div>
+
+    <div>
+
+
+        <div class="makeDisplay">
+            <table class="table table-bordered table-condensed">
+                <tr>
+                    <td>Make</td>
+                    <td>Model</td>
+                    <td>Date Added</td>
+                    <td>User</td>
+                </tr>
+                @foreach (var mdl in Model.Models)
+                {
+                    <tr>
+                        <td>@mdl.Make.MakeName</td>
+                        <td>@mdl.ModelName</td>
+                        <td>@mdl.Date.Date</td>
+                        <td>@mdl.user.Email</td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+}

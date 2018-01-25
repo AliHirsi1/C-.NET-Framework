@@ -1,0 +1,26 @@
+﻿@model CarDealarship.Model.Tables.Specials
+@{
+    ViewBag.Title = "DeleteSpecial";
+}
+
+<h2>DeleteSpecial</h2>
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Delete Special</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @using (Html.BeginForm("DeleteSpecials", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+
+            @Html.HiddenFor(i => i.SpecialId)
+            <p>Are you sure that you wish to delete speicals @Html.DisplayFor(s => s.Title)?</p>
+                <button type="submit" class="btn btn-sm btn-primary">Delete</button>
+                @Html.ActionLink("Cancel", "Specials", "Admin", null, new { @class = "btn btn-sm btn-info" })
+        }
+
+    </div>
+</div>
+

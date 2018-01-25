@@ -1,0 +1,42 @@
+﻿@using CarDealarship.UI.Models
+@model IEnumerable<UserViewModel>
+
+
+@{
+    ViewBag.Title = "Users";
+}
+
+<h2>Users</h2>
+<a href="http://localhost:50163/Admin/AddUser">Add a new User</a>
+<div>
+    @if (Model != null)
+    {
+        <div class="userDisplay">
+            <table class="table table-bordered table-condensed">
+
+                <tr>
+                    <td>LastName</td>
+                    <td>FirstName</td>
+                    <td>Email</td>
+                    <td>Role</td>
+                    <td>Edit</td>
+                </tr>
+
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>@user.LastName</td>
+                        <td>@user.FirstName</td>
+                        <td>@user.Email</td>
+                        <td>@user.Role</td>
+                        <td>@Html.ActionLink("Edit", "EditUser", "Admin", new { id = user.Id }, null)</td>
+
+                    </tr>
+                }
+            </table>
+
+        </div>
+
+    }
+</div>
+

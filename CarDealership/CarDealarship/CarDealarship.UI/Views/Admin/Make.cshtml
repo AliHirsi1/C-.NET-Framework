@@ -1,0 +1,46 @@
+﻿@model  CarDealarship.UI.Models.MakeViewModel
+
+
+
+@{
+    ViewBag.Title = "Make";
+}
+
+<h2>Makes</h2>
+@using (Html.BeginForm("Make", "Admin", FormMethod.Post))
+{
+
+    <div class="form-group">
+        <label class="col-sm-4 control-label">New Makes</label>
+        @Html.TextBoxFor(m => m.MakeName, new { @class = "form-control" })
+        <span class="text-danger">@Html.ValidationMessageFor(m => m.MakeName)</span>
+        <button type="submit" class="btn btn-primary ">Save</button>
+    </div>
+
+    <div>
+
+
+        <div class="makeDisplay">
+            <table class="table table-bordered table-condensed">
+                <tr>
+                    <td>Make</td>
+                    <td>Date Added</td>
+                    <td>User</td>
+                </tr>
+                @foreach (var mke in Model.Makes)
+                {
+                    <tr>
+                        <td>@mke.MakeName</td>
+                        <td>@mke.Date.Date</td>
+                        <td>@mke.user.Email</td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+}
+
+
+
+

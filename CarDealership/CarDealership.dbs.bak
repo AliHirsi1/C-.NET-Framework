@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="CarDealership" id="Project_2ea2e02" template="Default" database="MySql" >
+	<schema name="cardealership" schemaname="cardealership" />
+	<layout name="Default Layout" id="Layout_2eae449" show_relation="columns" >
+		<callout x="45" y="45" pointer="NO" >
+			<comment><![CDATA[This project is in offline mode.
+Design the schema and save the design to project file. Later create or upgrade the schema on any database.
+Right-click the layout to add new tables. Drop this callout from its right-click pop-up menu.]]></comment>
+		</callout>
+	</layout>
+</project>

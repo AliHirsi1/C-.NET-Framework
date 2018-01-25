@@ -1,0 +1,84 @@
+﻿<h2>Admin</h2>
+<a href="http://localhost:50163/Admin/AddVehicle">Add a new Vehicle</a>
+<hr />
+
+<div id="quickSearch" class="row">
+    <div class="col-xs-12">
+        <div class="details">
+            <div id="detailsPage"></div>
+        </div>
+        <div class="searchItems">
+            <h3 id="quick">Quick Search</h3>
+            <div class="col-xs-4">
+                <input type="text" id="SearchKey" , new, placeholder="Enter make model or year" />
+            </div>
+            <div class="col-xs-4">
+                <label>Price</label>
+                @{
+                    List<decimal> price = new List<decimal>();
+                    for (int i = 500; i <= 60000; i += 500)
+                    {
+                        price.Add(i);
+                    }
+                }
+                <select id="minPrice">
+                    <option value="-1">No Min</option>
+                    @{
+                        foreach (var minPrice in price)
+                        {
+                            <option value="@minPrice">@minPrice</option>
+                        }
+                    }
+
+                </select>
+                <select id="maxPrice">
+                    <option value="1000000000">No Max</option>
+                    @{
+                        foreach (var maxPrice in price)
+                        {
+                            <option value="@maxPrice">@maxPrice</option>
+                        }
+                    }
+
+                </select>
+            </div>
+
+            <label>Year</label>
+            @{
+                List<int> year = new List<int>();
+                for (int i = 1980; i <= DateTime.Now.Year + 1; i++)
+                {
+                    year.Add(i);
+                }
+            }
+
+            <select id="minYear">
+                <option value="-1">No Min</option>
+                @{
+                    foreach (var minYear in year)
+                    {
+                        <option value="@minYear">@minYear</option>
+                    }
+                }
+            </select>
+            <select id="maxYear">
+                <option value="9999">No Max</option>
+                @{
+                    foreach (var minYear in year)
+                    {
+                        <option value="@minYear">@minYear</option>
+                    }
+                }
+            </select>
+
+            <button id="adminSearchButton" type="submit" class="btn btn-sm btn-primary">Search</button>
+        </div>
+
+    </div>
+
+    <div class="row resultStyle">
+        <h2 id="adminSearchResultTitle">Search Results</h2>
+        <div id="SearchResults">
+        </div>
+    </div>
+</div>

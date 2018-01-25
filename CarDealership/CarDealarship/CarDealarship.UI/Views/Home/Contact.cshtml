@@ -1,0 +1,67 @@
+﻿@model CarDealarship.UI.Models.ContactVM
+
+@{
+    ViewBag.Title = "Contact Us";
+}
+<h2>@ViewBag.Title</h2>
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="col-md-6">
+            @using (Html.BeginForm("ContactUs", "Home", FormMethod.Post))
+            {
+                <span class="control-label">
+                    FirstName
+                </span>
+                @Html.TextBoxFor(f => f.FirstName, new { @class = "form-control", placeholder = "FirstName" })
+                <span class="text-danger">@Html.ValidationMessageFor(f => f.FirstName)</span>
+                <br />
+
+                <span class="control-label">
+                    LastName
+                </span>
+                @Html.TextBoxFor(l => l.LastName, new { @class = "form-control", placeholder = "LastName" })
+                <span class="text-danger">@Html.ValidationMessageFor(l => l.LastName)</span>
+                <br />
+                <span class="control-label">
+                    Email
+                </span>
+
+                @Html.TextBoxFor(e => e.Email, new { @class = "form-control", placeholder = "Email" })
+                <span class="text-danger">@Html.ValidationMessageFor(e => e.Email)</span>
+                <br />
+                <span class="control-label">
+                    Phone
+                </span>
+                @Html.TextBoxFor(p => p.Phone, new { @class = "form-control", placeholder = "Phone" })
+                <span class="text-danger">@Html.ValidationMessageFor(p => p.Phone)</span>
+                <br />
+                <span class="control-label">
+                    Message
+                </span>
+                @Html.TextBoxFor(m => m.Message, new { @class = "form-control", placeholder = "Message" })
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Message)</span>
+                <br />
+                <button type="submit" class="btn btn-primary ">Save</button>
+
+            }
+
+
+        </div>
+        <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1411.
+                    128855937838!2d-93.27292270726794!3d44.97907562803353!2m3!1f0!2f0!3f0!
+                    3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b332907d76198f%3A0x47305550cfd48180!2s
+                    The+Software+Guild!5e0!3m2!1sen!2sus!4v1510719325619"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <footer style="text-align:center">
+                <strong>
+                    15 S 5th St #600, <br />
+                    Minneapolis, MN 55402
+                </strong>
+            </footer>
+
+        </div>
+    </div>
+
+</div>

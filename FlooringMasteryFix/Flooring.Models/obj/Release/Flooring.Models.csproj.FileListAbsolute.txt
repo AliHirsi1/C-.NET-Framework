@@ -1,0 +1,5 @@
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.Models\bin\Release\Flooring.Models.dll
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.Models\bin\Release\Flooring.Models.pdb
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.Models\obj\Release\Flooring.Models.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.Models\obj\Release\Flooring.Models.dll
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.Models\obj\Release\Flooring.Models.pdb

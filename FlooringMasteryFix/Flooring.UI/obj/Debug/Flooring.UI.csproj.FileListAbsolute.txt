@@ -1,0 +1,13 @@
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\bin\Debug\Flooring.UI.exe.config
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\bin\Debug\Flooring.UI.exe
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\bin\Debug\Flooring.BLL.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\bin\Debug\Flooring.Models.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\bin\Debug\Flooring.Data.dll
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\bin\Debug\Flooring.BLL.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\bin\Debug\Flooring.Models.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\bin\Debug\Flooring.Data.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\obj\Debug\Flooring.UI.csprojResolveAssemblyReference.cache
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\obj\Debug\Flooring.UI.csproj.CoreCompileInputs.cache
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\obj\Debug\Flooring.UI.exe
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\obj\Debug\Flooring.UI.pdb
+C:\Users\Guild\Desktop\dotnet-ali-hirsi\FlooringMasteryFix\Flooring.UI\bin\Debug\Flooring.UI.pdb

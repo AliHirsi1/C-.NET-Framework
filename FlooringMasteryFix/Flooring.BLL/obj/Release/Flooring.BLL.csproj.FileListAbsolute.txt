@@ -1,0 +1,9 @@
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.BLL\bin\Release\Flooring.BLL.dll
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.BLL\bin\Release\Flooring.BLL.pdb
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.BLL\bin\Release\Flooring.Data.dll
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.BLL\bin\Release\Flooring.Models.dll
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.BLL\bin\Release\Flooring.Data.pdb
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.BLL\bin\Release\Flooring.Models.pdb
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.BLL\obj\Release\Flooring.BLL.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.BLL\obj\Release\Flooring.BLL.dll
+C:\Users\apprentice\Desktop\Repos\dotnet-ali-hirsi\FlooringMastery\Flooring.BLL\obj\Release\Flooring.BLL.pdb

@@ -10,7 +10,7 @@ namespace Safe.Model
     {
         public int CadenceID { get; set; }
         public int Sequence { get; set; }
-        public int Program { get; set; }
+        public string ProgramIncrement { get; set; }
         public string Iteration { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }

@@ -1,0 +1,15 @@
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\bin\Debug\Safe.Model.dll.config
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\bin\Debug\Safe.Model.dll
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\bin\Debug\Safe.Model.pdb
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\bin\Debug\EntityFramework.dll
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\bin\Debug\EntityFramework.xml
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\obj\Debug\Safe.Model.csprojResolveAssemblyReference.cache
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\obj\Debug\Safe.Model.csproj.CoreCompileInputs.cache
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\obj\Debug\Safe.Model.dll
+C:\Users\Guild\Desktop\GitHub\C-.NET\SafeExplore\Safe.Model\obj\Debug\Safe.Model.pdb
